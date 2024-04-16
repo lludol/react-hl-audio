@@ -118,7 +118,7 @@ Don't hesitate to [create a pull request](https://github.com/lludol/react-hl-aud
 
 ## Bugs
 
-If you find a bug or want a new feature, dont'hesitate to [create an issue](https://github.com/lludol/react-hl-audio/issues).
+If you find a bug or want a new feature, don't hesitate to [create an issue](https://github.com/lludol/react-hl-audio/issues).
 
 ## License
 
