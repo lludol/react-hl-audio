@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState, type SyntheticEvent } from "react";
+import { type SyntheticEvent, useCallback, useEffect, useState } from "react";
 import { useAudioPlayer } from "./AudioPlayerProvider";
 
 interface AudioPlayerProps {
