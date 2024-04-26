@@ -22,7 +22,8 @@ interface AudioPlayerProps {
     autoPlay?: boolean;
     onProgress?: (progress: number) => void;
     onFirstPlay?: () => void;
+    onEnded?: () => void;
 }
-export const AudioPlayer: ({ src, autoPlay, onProgress, onFirstPlay, }: AudioPlayerProps) => import("react").JSX.Element;
+export const AudioPlayer: ({ src, autoPlay, onProgress, onFirstPlay, onEnded, }: AudioPlayerProps) => import("react").JSX.Element;
 
 //# sourceMappingURL=index.d.ts.map

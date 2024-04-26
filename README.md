@@ -99,6 +99,7 @@ export default Audio;
 | autoPlay                 | boolean                    | false   |                |
 | onProgress               | (progress: number) => void |         | In percent (%) |
 | onFirstPlay              | () => void                 |         |                |
+| onEnded                  | () => void                 |         |                |
 
 ### useAudioPlayer
 | Props                    | Type                   | Default | Note           |

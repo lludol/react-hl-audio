@@ -7,6 +7,7 @@ interface AudioPlayerProps {
 
 	onProgress?: (progress: number) => void;
 	onFirstPlay?: () => void;
+	onEnded?: () => void;
 }
 
 export const AudioPlayer = ({
@@ -15,6 +16,7 @@ export const AudioPlayer = ({
 
 	onProgress,
 	onFirstPlay,
+	onEnded,
 }: AudioPlayerProps) => {
 	const {
 		audioRef,
@@ -114,6 +116,7 @@ export const AudioPlayer = ({
 			onTimeUpdate={onTimeUpdate}
 			onLoadedMetadata={onLoadedMetadata}
 			onCanPlayThrough={onCanPlayThrough}
+			onEnded={onEnded}
 		/>
 	);
 };
