@@ -13,13 +13,13 @@ devDependencies:
     version: 2.12.0(@parcel/core@2.12.0)
   '@parcel/transformer-typescript-types':
     specifier: 2.12.0
-    version: 2.12.0(@parcel/core@2.12.0)(typescript@5.4.5)
+    version: 2.12.0(@parcel/core@2.12.0)(typescript@5.5.2)
   '@types/react':
     specifier: ^18.3.3
     version: 18.3.3
   parcel:
     specifier: ^2.12.0
-    version: 2.12.0(typescript@5.4.5)
+    version: 2.12.0(typescript@5.5.2)
   react:
     specifier: ^18.2.0
     version: 18.3.1
@@ -27,8 +27,8 @@ devDependencies:
     specifier: ^18.3.1
     version: 18.3.1(react@18.3.1)
   typescript:
-    specifier: ^5.0.0
-    version: 5.4.5
+    specifier: ^5.5.2
+    version: 5.5.2
 
 packages:
 
@@ -305,7 +305,7 @@ packages:
       - '@swc/helpers'
     dev: true
 
-  /@parcel/config-default@2.12.0(@parcel/core@2.12.0)(typescript@5.4.5):
+  /@parcel/config-default@2.12.0(@parcel/core@2.12.0)(typescript@5.5.2):
     resolution: {integrity: sha512-dPNe2n9eEsKRc1soWIY0yToMUPirPIa2QhxcCB3Z5RjpDGIXm0pds+BaiqY6uGLEEzsjhRO0ujd4v2Rmm0vuFg==}
     peerDependencies:
       '@parcel/core': ^2.12.0
@@ -315,7 +315,7 @@ packages:
       '@parcel/core': 2.12.0
       '@parcel/namer-default': 2.12.0(@parcel/core@2.12.0)
       '@parcel/optimizer-css': 2.12.0(@parcel/core@2.12.0)
-      '@parcel/optimizer-htmlnano': 2.12.0(@parcel/core@2.12.0)(typescript@5.4.5)
+      '@parcel/optimizer-htmlnano': 2.12.0(@parcel/core@2.12.0)(typescript@5.5.2)
       '@parcel/optimizer-image': 2.12.0(@parcel/core@2.12.0)
       '@parcel/optimizer-svgo': 2.12.0(@parcel/core@2.12.0)
       '@parcel/optimizer-swc': 2.12.0(@parcel/core@2.12.0)
@@ -481,12 +481,12 @@ packages:
       - '@swc/helpers'
     dev: true
 
-  /@parcel/optimizer-htmlnano@2.12.0(@parcel/core@2.12.0)(typescript@5.4.5):
+  /@parcel/optimizer-htmlnano@2.12.0(@parcel/core@2.12.0)(typescript@5.5.2):
     resolution: {integrity: sha512-MfPMeCrT8FYiOrpFHVR+NcZQlXAptK2r4nGJjfT+ndPBhEEZp4yyL7n1y7HfX9geg5altc4WTb4Gug7rCoW8VQ==}
     engines: {node: '>= 12.0.0', parcel: ^2.12.0}
     dependencies:
       '@parcel/plugin': 2.12.0(@parcel/core@2.12.0)
-      htmlnano: 2.1.1(svgo@2.8.0)(typescript@5.4.5)
+      htmlnano: 2.1.1(svgo@2.8.0)(typescript@5.5.2)
       nullthrows: 1.1.1
       posthtml: 0.16.6
       svgo: 2.8.0
@@ -964,7 +964,7 @@ packages:
       - '@swc/helpers'
     dev: true
 
-  /@parcel/transformer-typescript-types@2.12.0(@parcel/core@2.12.0)(typescript@5.4.5):
+  /@parcel/transformer-typescript-types@2.12.0(@parcel/core@2.12.0)(typescript@5.5.2):
     resolution: {integrity: sha512-uxF4UBMYvbjiV3zHTWMrZX8cFD92VUvD3ArcGi5WEtuVROUm9Sc47o0mOzxKfMFlJu2KOfZVHYlzK9f/UKA2kQ==}
     engines: {node: '>= 12.0.0', parcel: ^2.12.0}
     peerDependencies:
@@ -973,23 +973,23 @@ packages:
       '@parcel/diagnostic': 2.12.0
       '@parcel/plugin': 2.12.0(@parcel/core@2.12.0)
       '@parcel/source-map': 2.1.1
-      '@parcel/ts-utils': 2.12.0(typescript@5.4.5)
+      '@parcel/ts-utils': 2.12.0(typescript@5.5.2)
       '@parcel/utils': 2.12.0
       nullthrows: 1.1.1
-      typescript: 5.4.5
+      typescript: 5.5.2
     transitivePeerDependencies:
       - '@parcel/core'
       - '@swc/helpers'
     dev: true
 
-  /@parcel/ts-utils@2.12.0(typescript@5.4.5):
+  /@parcel/ts-utils@2.12.0(typescript@5.5.2):
     resolution: {integrity: sha512-zou+W6dcqnXXUOfN5zGM+ePIWbYOhGp8bVB2jICoNkoKmNAHd4l4zeHl5yQXnbZfynVw88cZVqxtXS8tYebelg==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       typescript: '>=3.0.0'
     dependencies:
       nullthrows: 1.1.1
-      typescript: 5.4.5
+      typescript: 5.5.2
     dev: true
 
   /@parcel/types@2.12.0(@parcel/core@2.12.0):
@@ -1442,7 +1442,7 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /cosmiconfig@9.0.0(typescript@5.4.5):
+  /cosmiconfig@9.0.0(typescript@5.5.2):
     resolution: {integrity: sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1455,7 +1455,7 @@ packages:
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
-      typescript: 5.4.5
+      typescript: 5.5.2
     dev: true
 
   /css-select@4.3.0:
@@ -1602,7 +1602,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /htmlnano@2.1.1(svgo@2.8.0)(typescript@5.4.5):
+  /htmlnano@2.1.1(svgo@2.8.0)(typescript@5.5.2):
     resolution: {integrity: sha512-kAERyg/LuNZYmdqgCdYvugyLWNFAm8MWXpQMz1pLpetmCbFwoMxvkSoaAMlFrOC4OKTWI4KlZGT/RsNxg4ghOw==}
     peerDependencies:
       cssnano: ^7.0.0
@@ -1631,7 +1631,7 @@ packages:
       uncss:
         optional: true
     dependencies:
-      cosmiconfig: 9.0.0(typescript@5.4.5)
+      cosmiconfig: 9.0.0(typescript@5.5.2)
       posthtml: 0.16.6
       svgo: 2.8.0
       timsort: 0.3.0
@@ -1912,12 +1912,12 @@ packages:
     resolution: {integrity: sha512-5VyHfHY3cd0iza71JepYG50My+YUbrFtGoUz2ooEydPyPM7Aai/JW098juLr+RG6+rDJuzNNTsEQu2DZa1A41A==}
     dev: true
 
-  /parcel@2.12.0(typescript@5.4.5):
+  /parcel@2.12.0(typescript@5.5.2):
     resolution: {integrity: sha512-W+gxAq7aQ9dJIg/XLKGcRT0cvnStFAQHPaI0pvD0U2l6IVLueUAm3nwN7lkY62zZNmlvNx6jNtE4wlbS+CyqSg==}
     engines: {node: '>= 12.0.0'}
     hasBin: true
     dependencies:
-      '@parcel/config-default': 2.12.0(@parcel/core@2.12.0)(typescript@5.4.5)
+      '@parcel/config-default': 2.12.0(@parcel/core@2.12.0)(typescript@5.5.2)
       '@parcel/core': 2.12.0
       '@parcel/diagnostic': 2.12.0
       '@parcel/events': 2.12.0
@@ -2123,8 +2123,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  /typescript@5.5.2:
+    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
