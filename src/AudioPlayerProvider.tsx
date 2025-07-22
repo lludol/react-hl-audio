@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import {
+	createContext,
 	type PropsWithChildren,
 	type RefObject,
-	createContext,
 	useCallback,
 	useContext,
 	useRef,
@@ -10,7 +10,7 @@ import {
 } from "react";
 
 type AudioPlayerContextProps = {
-	audioRef: RefObject<HTMLAudioElement>;
+	audioRef: RefObject<HTMLAudioElement | null>;
 
 	playing: boolean;
 

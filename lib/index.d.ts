@@ -1,6 +1,6 @@
-import { PropsWithChildren, RefObject } from "react";
+import { PropsWithChildren, RefObject, JSX } from "react";
 type AudioPlayerContextProps = {
-    audioRef: RefObject<HTMLAudioElement>;
+    audioRef: RefObject<HTMLAudioElement | null>;
     playing: boolean;
     duration: number;
     loaded: boolean;
@@ -16,7 +16,7 @@ type AudioPlayerContextProps = {
     seekTo: (second: number) => void;
 };
 export const useAudioPlayer: () => AudioPlayerContextProps;
-export const AudioPlayerProvider: ({ children }: PropsWithChildren) => import("react").JSX.Element;
+export const AudioPlayerProvider: ({ children }: PropsWithChildren) => JSX.Element;
 interface AudioPlayerProps {
     src: string;
     autoPlay?: boolean;
@@ -24,6 +24,6 @@ interface AudioPlayerProps {
     onFirstPlay?: () => void;
     onEnded?: () => void;
 }
-export const AudioPlayer: ({ src, autoPlay, onProgress, onFirstPlay, onEnded, }: AudioPlayerProps) => import("react").JSX.Element;
+export const AudioPlayer: ({ src, autoPlay, onProgress, onFirstPlay, onEnded, }: AudioPlayerProps) => JSX.Element;
 
 //# sourceMappingURL=index.d.ts.map

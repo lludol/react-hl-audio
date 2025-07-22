@@ -104,7 +104,6 @@ export const AudioPlayer = ({
 	]);
 
 	return (
-		// biome-ignore lint/a11y/useMediaCaption: <explanation>
 		<audio
 			ref={audioRef}
 			style={{ display: "none" }}
